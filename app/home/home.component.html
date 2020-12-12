@@ -1,0 +1,19 @@
+﻿<div class="col-md-6 col-md-offset-3">
+   <div class="header">
+  <h3>‘Authorization’: {{currentUser.lastName}}{{currentUser.firstName}}2020 ‘token obtained in login API’</h3>
+  <p></p>
+</div>
+ 
+    <h3>Namastey {{currentUser.firstName}} ! Welcome to your login window .</h3>
+    <br><br><br><br>
+
+   <div class="pagination_section"> 
+        <a href="sample1.html"><<Previous</a> 
+        <a href="#" >1</a> 
+        <a href="sample1.html">2</a> 
+        <a href="#">Next >></a> 
+    </div>
+     <br><br>
+    <p><a [routerLink]="['/login']">Sign out</a></p>
+    <button class="btn btn-primary" onClick="window.location.reload();">Refresh Page</button>
+</div>
